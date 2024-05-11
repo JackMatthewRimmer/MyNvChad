@@ -6,7 +6,9 @@ local M = {}
 
 M.ui = {
 	theme = "gruvbox",
-
+  tabufline = {
+    enabled= false
+  }
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
